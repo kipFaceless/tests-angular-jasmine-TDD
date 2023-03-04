@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { CalcComponent } from './calc/calc.component';
 import { HttpClientModule } from '@angular/common/http';
 import { TodoComponent } from './todo/todo.component';
+import { RideComponent } from './components/ride/ride.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CalcComponent,
-    TodoComponent
+    TodoComponent,
+    RideComponent
   ],
   imports: [
     BrowserModule,

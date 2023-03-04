@@ -1,6 +1,13 @@
-<p> <b>Resultado </b> {{resultado}}</p>
+<div class="container m-4">
 
-<button (click)="somarValor()">Somar+1</button>
+</div>
+<p> <b>Resultado </b> {{ resultado }}</p>
+<h1 class="h1Element">COUNTER {{ counter }}</h1>
+
+<button
+(click)="somarValor(); increaseBy(+1)"
+class="btn btn-primary"
+>Somar+1</button>
 
 <br>
 <br>

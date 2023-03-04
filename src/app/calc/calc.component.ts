@@ -8,14 +8,19 @@ import { CalculadoraService } from './../services/calculadora.service';
 })
 export class CalcComponent {
 
- resultado: number = 0
- mensagem : string =''
+ resultado: number = 0;
+ mensagem : string ='';
+ counter : number = 10;
 constructor(private calculadoraService : CalculadoraService){
 
 }
  somarValor(){
-  this.resultado +=1
+  this.resultado +=1;
   this.gerarInformacao("Você adicionou 1 ao resultado")
+ }
+
+ increaseBy(value : number){
+    this.counter +=value;
  }
 
  decrementarValor(){
