@@ -86,7 +86,7 @@ describe('CalcComponent', () => {
     component.increaseBy(10)
     fixture.detectChanges();
     //const h1Element = fixture.debugElement.nativeElement.getElementsByTagName('h1');
-    const h1Element = fixture.debugElement.nativeElement.querySelector('.h1Element');
+    const h1Element = fixture.debugElement.nativeElement.querySelector('h1');
     expect(h1Element?.textContent).toContain(20);
    // expect(divElements.length).toBeGreaterThan(0);
    });
