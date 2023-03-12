@@ -7,13 +7,15 @@ import { CalcComponent } from './calc/calc.component';
 import { HttpClientModule } from '@angular/common/http';
 import { TodoComponent } from './todo/todo.component';
 import { RideComponent } from './components/ride/ride.component';
+import { CharizardComponent } from './basic/charizard/charizard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CalcComponent,
     TodoComponent,
-    RideComponent
+    RideComponent,
+    CharizardComponent
   ],
   imports: [
     BrowserModule,

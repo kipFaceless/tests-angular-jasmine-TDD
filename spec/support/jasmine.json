@@ -1,0 +1,12 @@
+{
+  "spec_dir": "src",
+  "spec_files": ["**/*.spec.ts"],
+  "helpers": ["./test-config/setup.ts"],
+  "random": false,
+  "stopSpecOnExpectationFailure": false,
+  "reporters": [
+    {
+      "name": "jasmine-spec-reporter"
+    }
+  ]
+}
